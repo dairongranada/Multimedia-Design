@@ -10,6 +10,18 @@
 
 
 
+/*================================================================================================*/
+/*================================   F  O  O  T  T  E  R  =================================*/
+
+.Foottterr{
+    color: white;
+    height: 100px;
+    background-color: rgb(21, 155, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*================================================================================================*/
 
 
 .BarraDeNav {
@@ -21,12 +33,10 @@
     background-color: rgb(41, 39, 39);
 }
 
-
 li a{
     padding: 18px;
     color: white;
 }
-
 
 
 .titulo1{
@@ -157,19 +167,6 @@ hr{
 }
 
 /*================================================================================================*/
-/*================================   F  O  O  T  T  E  R  =================================*/
-
-.Foottterr{
-    color: white;
-    height: 100px;
-    background-color: rgb(21, 155, 233);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-/*================================================================================================*/
 /*================================  N  O  S  O  T  R  O  S   =================================*/
 
 
@@ -217,7 +214,7 @@ hr{
 /*================================  S  E  R  V  I  C  I  O  S  =================================*/
 
 
-.ContainerPrincipalNosotros{
+.ContainerPrincipalServicios{
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
@@ -267,10 +264,13 @@ hr{
 
 
 /*================================================================================================*/
-/*================================  S  E  R  V  I  C  I  O  S  =================================*/
+/*================================  C  O  N  T  A  C  T  O  S  =================================*/
 
+.Container1Pequeño h2{
+    margin-bottom: 40px;
+}
 
-.ContainerPrincipalNosotros{
+.ContainerPrincipalContactos{
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
@@ -294,7 +294,6 @@ hr{
 
 .ContaineDefondoVentas h1{
     padding: 0 0 25px;
-
 }
 
 .PrecioDiseños{
@@ -324,6 +323,27 @@ hr{
     margin-top: 61px;
 }
 
+.Container1Pequeño input{
+    width:100%;
+    height: 30px
+}
+
 textarea {
     resize: none;
+    width:100%;
+    height:100px;
+
+}
+
+.TitleImputs{
+    margin-top: 4px;
+}
+
+.Container1Pequeño button{
+    width:100%;
+    height: 30px;
+    background-color: rgb(243, 82, 7);
+    border: none;
+    color: white;
+    
 }
