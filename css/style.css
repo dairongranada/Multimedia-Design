@@ -344,8 +344,10 @@ textarea {
     align-items: center;
 }
 
+
 /*================================================================================================*/
 /*================================  R E S P O N S I V E  =========================================*/
+/*================================================================================================*/
 
 @media (max-width: 1000px) {
 /*===================================================*/
@@ -423,11 +425,12 @@ textarea {
 
     .Container2PequeñoServicios {
         width: 100%;
-        height: 159px;
+        height: 90%;
     }
 
     .Container2PequeñoServicios p{
         width: 95%;
+        margin-bottom: 20px;
     }
 
 
@@ -469,7 +472,7 @@ textarea {
 
 
     .Container2PequeñoContactos p {
-        width: 99%;
+        width: 97%;
     }
 
 
@@ -489,11 +492,91 @@ textarea {
         align-items: center;
         justify-content: center;
     }
+}
+
+
+
+
+@media (max-width: 650px) {
+
+/*===================================================*/
+/*=============== I  N  D  E  X  ====================*/
+
+    .titulo1 {
+        font-size: 57%;
+    }
+
+    .NavegacionChimbaxx {
+        font-size: 11px;
+    }
+
+    li a {
+        padding: 7px;
+        color: white;
+    }
+
+    .ContenedorDeLosLenguajes {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .ContenedorImges {
+        width: 46%;
+    }
+
+    .TitleContentIMG {
+        font-size: 23px;
+    }
+
+    .ContenedorImges p {
+        font-size: 15px;
+    }
+
+    .Subscribete-Boletin {
+        font-size: 18px;
+        margin-left: 10PX;
+    }
+    
+    .imputGmail {
+        width: 149px;
+    }
+
+    .ButoomSuss {
+        margin-right: 20px;
+
+    }
+    
+/*===================================================*/
+/*=============== N O S O T R O S ====================*/
+    .Container2Pequeño {
+        height: 100%;
+    }
+    
+    .Container2Pequeño p {
+        margin-bottom: 13px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 }
+
 
 
 
